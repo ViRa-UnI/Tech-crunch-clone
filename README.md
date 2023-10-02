@@ -1,1 +1,0 @@
-# Tech-crunch-clone

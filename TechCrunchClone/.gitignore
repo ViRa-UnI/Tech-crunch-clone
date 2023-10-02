@@ -1,0 +1,11 @@
+# .gitignore file
+
+node_modules/
+.env
+.DS_Store
+npm-debug.log
+yarn-error.log
+/client/.next/
+/client/out/
+/client/node_modules/
+/server/node_modules/

@@ -1,0 +1,27 @@
+{
+  "name": "techcrunch-clone",
+  "version": "1.0.0",
+  "description": "A full-fledged TechCrunch clone with backend admin dashboard",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "client": "cd client && npm run dev",
+    "dev": "concurrently \"npm run start\" \"npm run client\""
+  },
+  "keywords": ["techcrunch", "clone", "MERN", "Next.js"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3",
+    "next": "^10.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "axios": "^0.21.1",
+    "passport": "^0.4.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1",
+    "dotenv": "^8.2.0",
+    "concurrently": "^5.3.0"
+  }
+}
